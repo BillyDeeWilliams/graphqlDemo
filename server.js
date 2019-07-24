@@ -50,7 +50,7 @@ const AuthorType =  new GraphQLObjectType({
         name: { type: GraphQLNonNull(GraphQLString)}
     })
 });
-
+ 
 const RootQueryType = new GraphQLObjectType({
     name: "query",
     description: "Root Query",
